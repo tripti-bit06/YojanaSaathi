@@ -1,0 +1,6 @@
+{
+  "name": "Yojana Saathi",
+  "description": "Discover Indian central government welfare schemes and scholarships you are eligible for in Hindi and English, with voice input, transparent rule-based matching, and application tracking.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

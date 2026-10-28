@@ -1,0 +1,613 @@
+[
+  {
+    "id": "pm-kisan",
+    "name": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+    "name_hi": "पीएम-किसान (प्रधानमंत्री किसान सम्मान निधि)",
+    "category": "Agriculture & Rural Livelihood",
+    "category_hi": "कृषि एवं ग्रामीण आजीविका",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "ministry_hi": "कृषि एवं किसान कल्याण मंत्रालय",
+    "description": "Direct income support for landholding farmer families across India to help meet agricultural input and domestic expenses. Excludes institutional landholders and income-tax-paying households.",
+    "description_hi": "देश भर के भूमिधारक किसान परिवारों को खेती और घरेलू खर्चों में सहायता के लिए सीधी आर्थिक मदद। आयकर देने वाले परिवार इस योजना से बाहर हैं।",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 95,
+      "max_income": 250000,
+      "categories": ["ALL"],
+      "states": ["ALL"],
+      "education_levels": ["ALL"],
+      "gender": "ALL",
+      "occupations": ["farmer"]
+    },
+    "benefits": "₹6,000 per year transferred directly via DBT in three equal installments of ₹2,000 every 4 months.",
+    "benefits_hi": "प्रति वर्ष ₹6,000 की सीधी आर्थिक सहायता, जो हर 4 महीने में ₹2,000 की तीन समान किस्तों में सीधे बैंक खाते (DBT) में भेजी जाती है।",
+    "documents": [
+      "Aadhaar Card linked with mobile number",
+      "Cultivable Land Ownership Record (Khatauni / Khasra)",
+      "Aadhaar-seeded Bank Account Passbook",
+      "Mobile Number for e-KYC OTP"
+    ],
+    "documents_hi": [
+      "मोबाइल नंबर से लिंक आधार कार्ड",
+      "कृषि भूमि के स्वामित्व के कागज़ात (खतौनी / खसरा)",
+      "आधार से जुड़ा बैंक खाता पासबुक",
+      "ई-केवाईसी ओटीपी के लिए सक्रिय मोबाइल नंबर"
+    ],
+    "steps": [
+      "Visit the official PM-KISAN portal (pmkisan.gov.in) or nearest CSC center.",
+      "Click 'New Farmer Registration' and select Rural or Urban Farmer.",
+      "Enter Aadhaar number, mobile number, state, and complete OTP e-KYC.",
+      "Fill landholding details from Khatauni and upload supporting land records."
+    ],
+    "steps_hi": [
+      "आधिकारिक पीएम-किसान पोर्टल (pmkisan.gov.in) या नजदीकी जन सेवा केंद्र (CSC) पर जाएं।",
+      "'New Farmer Registration' चुनें और ग्रामीण या शहरी किसान का विकल्प चुनें।",
+      "आधार नंबर, मोबाइल नंबर और राज्य दर्ज कर ओटीपी से ई-केवाईसी पूरा करें।",
+      "खतौनी के अनुसार ज़मीन का विवरण भरें और दस्तावेज़ अपलोड करें।"
+    ],
+    "official_url": "https://pmkisan.gov.in/",
+    "verification_note": "Conservative income cap used to exclude income-tax payers. Verify culturable landholding cut-off dates and exclusions on pmkisan.gov.in.",
+    "verification_note_hi": "आयकर दाताओं को बाहर रखने के लिए अनुमानित आय सीमा लगाई गई है। भूमि स्वामित्व की शर्तें आधिकारिक पोर्टल pmkisan.gov.in पर जांचें।"
+  },
+  {
+    "id": "ayushman-bharat-pmjay",
+    "name": "Ayushman Bharat PM-JAY",
+    "name_hi": "आयुष्मान भारत प्रधानमंत्री जन आरोग्य योजना (PM-JAY)",
+    "category": "Health & Insurance",
+    "category_hi": "स्वास्थ्य एवं बीमा",
+    "ministry": "Ministry of Health and Family Welfare",
+    "ministry_hi": "स्वास्थ्य एवं परिवार कल्याण मंत्रालय",
+    "description": "Cashless secondary and tertiary hospitalization coverage at empanelled public and private hospitals for economically vulnerable families and senior citizens aged 70+.",
+    "description_hi": "आर्थिक रूप से कमजोर परिवारों और 70 वर्ष से अधिक आयु के वरिष्ठ नागरिकों के लिए सरकारी व सूचीबद्ध निजी अस्पतालों में कैशलेस इलाज की सुविधा।",
+    "eligibility": {
+      "min_age": 0,
+      "max_age": 100,
+      "max_income": 250000,
+      "categories": ["ALL"],
+      "states": ["ALL"],
+      "education_levels": ["ALL"],
+      "gender": "ALL",
+      "occupations": ["ALL"]
+    },
+    "benefits": "Cashless health cover up to ₹5,00,000 per family per year covering surgery, ICU, diagnostics, and pre/post-hospitalization medicines.",
+    "benefits_hi": "प्रति परिवार प्रति वर्ष ₹5,00,000 तक का कैशलेस स्वास्थ्य बीमा, जिसमें ऑपरेशन, जांच, भर्ती से पहले और बाद की दवाइयां शामिल हैं।",
+    "documents": [
+      "Aadhaar Card of family members",
+      "Ration Card / NFSA Family ID or SECC-2011 household listing",
+      "Active Mobile Number",
+      "Proof of Age (especially for 70+ Vay Vandana Card)"
+    ],
+    "documents_hi": [
+      "परिवार के सदस्यों का आधार कार्ड",
+      "राशन कार्ड / परिवार पहचान पत्र या SECC-2011 सूची में नाम",
+      "सक्रिय मोबाइल नंबर",
+      "आयु प्रमाण (विशेष रूप से 70+ वय वंदना कार्ड के लिए)"
+    ],
+    "steps": [
+      "Open beneficiary.nha.gov.in or the Ayushman App and log in as Beneficiary.",
+      "Search your household using State, District, Aadhaar number, or Family/Ration ID.",
+      "Complete Aadhaar OTP or face/fingerprint e-KYC for listed members.",
+      "Download your Ayushman Card once approved."
+    ],
+    "steps_hi": [
+      "beneficiary.nha.gov.in पोर्टल या आयुष्मान ऐप खोलें और 'Beneficiary' के रूप में लॉग इन करें।",
+      "राज्य, जिला, आधार नंबर या राशन कार्ड आईडी से अपने परिवार का नाम खोजें।",
+      "परिवार के सदस्यों का आधार ओटीपी या फिंगरप्रिंट से ई-केवाईसी पूरा करें।",
+      "स्वीकृति मिलने पर अपना आयुष्मान कार्ड डाउनलोड करें।"
+    ],
+    "official_url": "https://pmjay.gov.in/",
+    "verification_note": "Final eligibility depends on SECC-2011 / NFSA ration card database or age 70+. Verify your household name directly on beneficiary.nha.gov.in.",
+    "verification_note_hi": "अंतिम पात्रता SECC-2011 / राशन कार्ड डेटाबेस या 70+ आयु पर आधारित है। आधिकारिक पोर्टल पर अपने परिवार का नाम अवश्य जांचें।"
+  },
+  {
+    "id": "pmay-housing",
+    "name": "Pradhan Mantri Awas Yojana (PMAY)",
+    "name_hi": "प्रधानमंत्री आवास योजना (PMAY)",
+    "category": "Housing & Shelter",
+    "category_hi": "आवास एवं शहरी/ग्रामीण विकास",
+    "ministry": "Ministry of Housing & Urban Affairs / Rural Development",
+    "ministry_hi": "आवास और शहरी कार्य / ग्रामीण विकास मंत्रालय",
+    "description": "Financial grant and home loan interest subsidy to help EWS and Low Income Group (LIG) families without an existing pucca house build or purchase an all-weather home.",
+    "description_hi": "बिना पक्के मकान वाले आर्थिक रूप से कमजोर (EWS) और निम्न आय वर्ग (LIG) के परिवारों को पक्का घर बनाने या खरीदने के लिए वित्तीय सहायता और ब्याज सब्सिडी।",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 70,
+      "max_income": 600000,
+      "categories": ["EWS", "SC", "ST", "OBC", "General"],
+      "states": ["ALL"],
+      "education_levels": ["ALL"],
+      "gender": "ALL",
+      "occupations": ["ALL"]
+    },
+    "benefits": "Up to ₹1.20 lakh – ₹2.50 lakh financial assistance or up to ₹1.80 lakh interest subsidy on affordable housing loans.",
+    "benefits_hi": "पक्का घर बनाने के लिए ₹1.20 लाख से ₹2.50 लाख तक की सहायता या गृह ऋण पर ₹1.80 लाख तक की ब्याज सब्सिडी।",
+    "documents": [
+      "Aadhaar Card of applicant and family members",
+      "Annual Household Income Certificate",
+      "Self-declaration affidavit confirming no existing pucca house in India",
+      "Land ownership document (if applying for beneficiary-led construction)",
+      "Bank Account Passbook"
+    ],
+    "documents_hi": [
+      "आवेदक और परिवार के सदस्यों का आधार कार्ड",
+      "वार्षिक पारिवारिक आय प्रमाण पत्र",
+      "देश में कहीं भी पक्का मकान न होने का स्व-घोषणा पत्र",
+      "भूमि स्वामित्व दस्तावेज़ (स्वयं निर्माण श्रेणी के लिए)",
+      "बैंक पासबुक"
+    ],
+    "steps": [
+      "Visit pmaymis.gov.in (Urban 2.0) or contact your Gram Panchayat for PMAY-G.",
+      "Click 'Apply for PMAY-U 2.0' and run the preliminary eligibility check.",
+      "Verify Aadhaar via OTP and fill household, income, and housing requirement details.",
+      "Submit application and note the Assessment ID for municipal/block verification."
+    ],
+    "steps_hi": [
+      "शहरी क्षेत्र के लिए pmaymis.gov.in पर जाएं या ग्रामीण क्षेत्र के लिए ग्राम पंचायत से संपर्क करें।",
+      "'Apply for PMAY-U 2.0' चुनें और प्रारंभिक पात्रता जांच पूरी करें।",
+      "आधार ओटीपी सत्यापित करें और परिवार व आय का विवरण भरें।",
+      "आवेदन जमा करें और सत्यापन के लिए अपनी एप्लीकेशन आईडी सुरक्षित रखें।"
+    ],
+    "official_url": "https://pmaymis.gov.in/",
+    "verification_note": "Applicant or family members must not own a pucca house anywhere in India. Check Urban (PMAY-U 2.0) vs Rural (PMAY-G) norms on the official site.",
+    "verification_note_hi": "आवेदक या परिवार के किसी सदस्य के नाम पूरे भारत में पक्का मकान नहीं होना चाहिए। आधिकारिक पोर्टल पर शर्तें जांचें।"
+  },
+  {
+    "id": "sukanya-samriddhi-yojana",
+    "name": "Sukanya Samriddhi Yojana (SSY)",
+    "name_hi": "सुकन्या समृद्धि योजना (SSY)",
+    "category": "Women & Child Welfare",
+    "category_hi": "महिला एवं बाल कल्याण",
+    "ministry": "Ministry of Finance",
+    "ministry_hi": "वित्त मंत्रालय",
+    "description": "Government-backed tax-free small savings scheme designed for the future higher education and marriage savings of a girl child below 10 years of age.",
+    "description_hi": "10 वर्ष से कम आयु की बालिका की उच्च शिक्षा और भविष्य की सुरक्षा के लिए भारत सरकार की उच्च ब्याज और कर-मुक्त बचत योजना।",
+    "eligibility": {
+      "min_age": 0,
+      "max_age": 10,
+      "max_income": null,
+      "categories": ["ALL"],
+      "states": ["ALL"],
+      "education_levels": ["ALL"],
+      "gender": "female",
+      "occupations": ["ALL"]
+    },
+    "benefits": "8.2% p.a. compounded government interest (subject to quarterly revision), Section 80C tax benefit, minimum deposit just ₹250/year.",
+    "benefits_hi": "8.2% वार्षिक चक्रवृद्धि सरकारी ब्याज (तिमाही संशोधन के अधीन), आयकर धारा 80C में छूट, न्यूनतम मात्र ₹250 प्रति वर्ष जमा।",
+    "documents": [
+      "Birth Certificate of the girl child",
+      "Aadhaar Card & PAN Card of parent / legal guardian",
+      "Address proof of parent / legal guardian",
+      "Passport-size photographs of child and parent"
+    ],
+    "documents_hi": [
+      "बालिका का जन्म प्रमाण पत्र",
+      "माता-पिता या अभिभावक का आधार कार्ड और पैन कार्ड",
+      "निवास प्रमाण पत्र",
+      "बालिका और अभिभावक की पासपोर्ट साइज फोटो"
+    ],
+    "steps": [
+      "Visit any India Post Office or authorized public/private sector bank branch.",
+      "Fill Form-1 (Sukanya Samriddhi Account opening form) in the girl child's name.",
+      "Attach the child's birth certificate and guardian KYC documents.",
+      "Deposit initial contribution (₹250 to ₹1,50,000) and collect the passbook."
+    ],
+    "steps_hi": [
+      "नजदीकी डाकघर (Post Office) या अधिकृत बैंक शाखा में जाएं।",
+      "बालिका के नाम पर सुकन्या समृद्धि खाता खोलने का फॉर्म (Form-1) भरें।",
+      "जन्म प्रमाण पत्र और अभिभावक के केवाईसी दस्तावेज़ संलग्न करें।",
+      "प्रारंभिक राशि (₹250 से ₹1,50,000 तक) जमा करें और पासबुक प्राप्त करें।"
+    ],
+    "official_url": "https://www.nsiindia.gov.in/(S(0))/InternalPage.aspx?Id_Pk=89",
+    "verification_note": "Account must be opened before the girl child turns 10 (maximum 2 girls per family, exception for twins). Verify current interest rates on nsiindia.gov.in.",
+    "verification_note_hi": "खाता बालिका की आयु 10 वर्ष पूरी होने से पहले खुलवाना अनिवार्य है (अधिकतम 2 बालिकाओं के लिए)। आधिकारिक वेबसाइट पर वर्तमान ब्याज दर जांचें।"
+  },
+  {
+    "id": "post-matric-scholarship-sc",
+    "name": "Post-Matric Scholarship for SC Students",
+    "name_hi": "अनुसूचित जाति (SC) पोस्ट-मैट्रिक छात्रवृत्ति योजना",
+    "category": "Education & Scholarships",
+    "category_hi": "शिक्षा एवं छात्रवृत्ति",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "ministry_hi": "सामाजिक न्याय और अधिकारिता मंत्रालय",
+    "description": "Central scholarship supporting Scheduled Caste students studying in Class 11, Class 12, Diploma, ITI, Undergraduate, or Postgraduate recognized courses.",
+    "description_hi": "कक्षा 11, 12, डिप्लोमा, आईटीआई, स्नातक या स्नातकोत्तर में अध्ययनरत अनुसूचित जाति (SC) के विद्यार्थियों के लिए केंद्रीय छात्रवृत्ति।",
+    "eligibility": {
+      "min_age": 14,
+      "max_age": 35,
+      "max_income": 250000,
+      "categories": ["SC"],
+      "states": ["ALL"],
+      "education_levels": ["secondary", "higher_secondary", "diploma", "undergraduate", "postgraduate"],
+      "gender": "ALL",
+      "occupations": ["student"]
+    },
+    "benefits": "Compulsory non-refundable tuition fee reimbursement plus annual academic allowance between ₹2,500 and ₹13,500 via DBT.",
+    "benefits_hi": "अनिवार्य शिक्षण शुल्क की प्रतिपूर्ति के साथ ₹2,500 से ₹13,500 प्रति वर्ष तक का शैक्षणिक भत्ता सीधे बैंक खाते में।",
+    "documents": [
+      "Scheduled Caste (SC) Certificate issued by competent authority",
+      "Family Annual Income Certificate (under ₹2.50 lakh)",
+      "Previous Academic Year Marksheet (Class 10 / 12 / College)",
+      "Bonafide Student Certificate / Fee Receipt from Institution",
+      "Aadhaar Card & Aadhaar-seeded Student Bank Account"
+    ],
+    "documents_hi": [
+      "सक्षम अधिकारी द्वारा जारी अनुसूचित जाति (SC) प्रमाण पत्र",
+      "वार्षिक पारिवारिक आय प्रमाण पत्र (₹2.50 लाख तक)",
+      "पिछली कक्षा की अंकतालिका (मार्कशीट)",
+      "संस्थान से बोनाफाइड प्रमाण पत्र और फीस रसीद",
+      "विद्यार्थी का आधार कार्ड और आधार से लिंक बैंक खाता"
+    ],
+    "steps": [
+      "Complete One-Time Registration (OTR) on the National Scholarship Portal (scholarships.gov.in) or respective State portal.",
+      "Log in and select 'Post-Matric Scholarship for SC Students'.",
+      "Upload caste certificate, income certificate, marksheet, and institution details.",
+      "Submit online and hand over a printed copy to your school/college nodal officer for verification."
+    ],
+    "steps_hi": [
+      "नेशनल स्कॉलरशिप पोर्टल (scholarships.gov.in) या राज्य पोर्टल पर वन-टाइम रजिस्ट्रेशन (OTR) पूरा करें।",
+      "लॉग इन कर 'Post-Matric Scholarship for SC Students' चुनें।",
+      "जाति प्रमाण पत्र, आय प्रमाण पत्र, मार्कशीट और कॉलेज का विवरण अपलोड करें।",
+      "ऑनलाइन फॉर्म जमा करें और सत्यापन हेतु एक प्रति अपने कॉलेज के नोडल अधिकारी को दें।"
+    ],
+    "official_url": "https://scholarships.gov.in/",
+    "verification_note": "Application deadlines vary each academic cycle on NSP and State portals. Verify active window on scholarships.gov.in.",
+    "verification_note_hi": "आवेदन की अंतिम तिथियां प्रत्येक शैक्षणिक सत्र में अलग होती हैं। कृपया scholarships.gov.in पर वर्तमान तिथि जांचें।"
+  },
+  {
+    "id": "post-matric-scholarship-st",
+    "name": "Post-Matric Scholarship for ST Students",
+    "name_hi": "अनुसूचित जनजाति (ST) पोस्ट-मैट्रिक छात्रवृत्ति योजना",
+    "category": "Education & Scholarships",
+    "category_hi": "शिक्षा एवं छात्रवृत्ति",
+    "ministry": "Ministry of Tribal Affairs",
+    "ministry_hi": "जनजातीय कार्य मंत्रालय",
+    "description": "Financial support for Scheduled Tribe students pursuing post-matriculation (Class 11 onwards up to Ph.D.) in recognized institutions across India.",
+    "description_hi": "मान्यता प्राप्त संस्थानों में कक्षा 11 से उच्च शिक्षा तक पढ़ाई कर रहे अनुसूचित जनजाति (ST) के विद्यार्थियों के लिए आर्थिक सहायता।",
+    "eligibility": {
+      "min_age": 14,
+      "max_age": 35,
+      "max_income": 250000,
+      "categories": ["ST"],
+      "states": ["ALL"],
+      "education_levels": ["secondary", "higher_secondary", "diploma", "undergraduate", "postgraduate"],
+      "gender": "ALL",
+      "occupations": ["student"]
+    },
+    "benefits": "Reimbursement of compulsory non-refundable fees plus monthly maintenance allowance (₹230 to ₹1,200/month for hostellers/day scholars).",
+    "benefits_hi": "अनिवार्य गैर-वापसी योग्य फीस की प्रतिपूर्ति तथा हॉस्टल व डे-स्कॉलर विद्यार्थियों के लिए ₹230 से ₹1,200 प्रति माह भत्ता।",
+    "documents": [
+      "Scheduled Tribe (ST) Certificate",
+      "Family Annual Income Certificate (up to ₹2.50 lakh)",
+      "Class 10 / Previous Exam Marksheet",
+      "Institution Admission / Bonafide Certificate",
+      "Aadhaar Card & Aadhaar-linked Bank Account"
+    ],
+    "documents_hi": [
+      "अनुसूचित जनजाति (ST) प्रमाण पत्र",
+      "वार्षिक पारिवारिक आय प्रमाण पत्र (₹2.50 लाख तक)",
+      "पिछली परीक्षा की मार्कशीट",
+      "संस्थान में प्रवेश / बोनाफाइड प्रमाण पत्र",
+      "आधार कार्ड और आधार-सीडेड बैंक खाता"
+    ],
+    "steps": [
+      "Register for an OTR ID on the National Scholarship Portal (scholarships.gov.in).",
+      "Complete Aadhaar e-KYC and fill academic and tribal certificate details.",
+      "Upload scanned copies of ST certificate, income proof, and marksheets.",
+      "Submit before the deadline and track institute/district verification status on NSP."
+    ],
+    "steps_hi": [
+      "नेशनल स्कॉलरशिप पोर्टल (scholarships.gov.in) पर OTR पंजीकरण करें।",
+      "आधार ई-केवाईसी पूरा करें और शैक्षणिक व जनजाति प्रमाण पत्र का विवरण भरें।",
+      "ST प्रमाण पत्र, आय प्रमाण पत्र और मार्कशीट अपलोड करें।",
+      "अंतिम तिथि से पहले फॉर्म सबमिट करें और पोर्टल पर स्थिति ट्रैक करें।"
+    ],
+    "official_url": "https://scholarships.gov.in/",
+    "verification_note": "Some states route ST post-matric applications through their state tribal portal linked with NSP. Verify on scholarships.gov.in.",
+    "verification_note_hi": "कुछ राज्यों में आवेदन राज्य जनजातीय पोर्टल के माध्यम से लिया जाता है। आधिकारिक वेबसाइट scholarships.gov.in पर जांचें।"
+  },
+  {
+    "id": "pm-yasasvi-obc-scholarship",
+    "name": "PM-YASASVI Post-Matric Scholarship for OBC, EBC & DNT",
+    "name_hi": "पीएम-यशस्वी पोस्ट-मैट्रिक छात्रवृत्ति (OBC, EBC एवं DNT)",
+    "category": "Education & Scholarships",
+    "category_hi": "शिक्षा एवं छात्रवृत्ति",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "ministry_hi": "सामाजिक न्याय और अधिकारिता मंत्रालय",
+    "description": "Post-matriculation scholarship providing tuition and academic allowance to Other Backward Classes (OBC), Economically Backward Classes (EBC), and DNT students.",
+    "description_hi": "अन्य पिछड़ा वर्ग (OBC), आर्थिक रूप से पिछड़ा वर्ग (EBC) और विमुक्त घुमंतू जनजाति (DNT) के विद्यार्थियों को उच्च शिक्षा के लिए छात्रवृत्ति।",
+    "eligibility": {
+      "min_age": 14,
+      "max_age": 35,
+      "max_income": 250000,
+      "categories": ["OBC", "EWS"],
+      "states": ["ALL"],
+      "education_levels": ["secondary", "higher_secondary", "diploma", "undergraduate", "postgraduate"],
+      "gender": "ALL",
+      "occupations": ["student"]
+    },
+    "benefits": "Academic allowance plus tuition grant from ₹5,000 up to ₹20,000 per year depending on course group.",
+    "benefits_hi": "कोर्स की श्रेणी के अनुसार प्रति वर्ष ₹5,000 से ₹20,000 तक की ट्यूशन और शैक्षणिक सहायता राशि।",
+    "documents": [
+      "Valid OBC / EBC / DNT Certificate",
+      "Annual Family Income Certificate (not exceeding ₹2.50 lakh)",
+      "Previous Class Marksheet",
+      "Current Institution Bonafide & Fee Structure",
+      "Aadhaar Card & NPCI-seeded Bank Account"
+    ],
+    "documents_hi": [
+      "वैध OBC / EBC / DNT प्रमाण पत्र",
+      "वार्षिक पारिवारिक आय प्रमाण पत्र (अधिकतम ₹2.50 लाख)",
+      "पिछली कक्षा की अंकतालिका",
+      "वर्तमान संस्थान का बोनाफाइड और फीस विवरण",
+      "आधार कार्ड और NPCI से लिंक बैंक खाता"
+    ],
+    "steps": [
+      "Visit scholarships.gov.in and generate your NSP One-Time Registration (OTR) number.",
+      "Select PM-YASASVI Post-Matric Scholarship under Ministry of Social Justice.",
+      "Enter institution AISHE/UDISE code, course details, and income/caste certificate numbers.",
+      "Submit online and ensure institute verification before the closing date."
+    ],
+    "steps_hi": [
+      "scholarships.gov.in पर जाकर अपना OTR नंबर बनाएं।",
+      "सामाजिक न्याय मंत्रालय के अंतर्गत PM-YASASVI योजना चुनें।",
+      "संस्थान का कोड, कोर्स विवरण, जाति व आय प्रमाण पत्र संख्या दर्ज करें।",
+      "ऑनलाइन सबमिट करें और समय सीमा में कॉलेज से सत्यापन करवाएं।"
+    ],
+    "official_url": "https://scholarships.gov.in/",
+    "verification_note": "Only two boys per family can avail OBC post-matric scholarship (restriction does not apply to girls). Verify course group rules on scholarships.gov.in.",
+    "verification_note_hi": "एक परिवार से अधिकतम दो लड़कों को लाभ मिलता है (लड़कियों पर यह सीमा लागू नहीं है)। आधिकारिक पोर्टल पर नियम जांचें।"
+  },
+  {
+    "id": "central-sector-college-scholarship",
+    "name": "Central Sector Scheme of Scholarships for College & University Students",
+    "name_hi": "कॉलेज एवं विश्वविद्यालय विद्यार्थियों के लिए केंद्रीय सेक्टर छात्रवृत्ति",
+    "category": "Education & Scholarships",
+    "category_hi": "शिक्षा एवं छात्रवृत्ति",
+    "ministry": "Ministry of Education",
+    "ministry_hi": "शिक्षा मंत्रालय",
+    "description": "Merit-cum-means scholarship for meritorious Class 12 pass-outs (above 80th percentile) pursuing regular undergraduate and postgraduate degree courses.",
+    "description_hi": "12वीं कक्षा में उत्कृष्ट अंक (80वें पर्सेंटाइल से ऊपर) प्राप्त करने वाले नियमित स्नातक और स्नातकोत्तर विद्यार्थियों के लिए मेरिट-सह-साधन छात्रवृत्ति।",
+    "eligibility": {
+      "min_age": 16,
+      "max_age": 30,
+      "max_income": 450000,
+      "categories": ["ALL"],
+      "states": ["ALL"],
+      "education_levels": ["higher_secondary", "undergraduate", "postgraduate"],
+      "gender": "ALL",
+      "occupations": ["student"]
+    },
+    "benefits": "₹12,000 per annum at Graduation level (first 3 years) and ₹20,000 per annum at Post-Graduation / 4th–5th year integrated level.",
+    "benefits_hi": "स्नातक स्तर (प्रथम 3 वर्ष) पर ₹12,000 प्रति वर्ष और स्नातकोत्तर स्तर पर ₹20,000 प्रति वर्ष की छात्रवृत्ति।",
+    "documents": [
+      "Class 12 Board Marksheet (showing ≥ 80th percentile in respective board)",
+      "Family Annual Income Certificate (up to ₹4.50 lakh)",
+      "Regular Degree Admission / Bonafide Certificate",
+      "Aadhaar Card & Aadhaar-seeded Bank Passbook"
+    ],
+    "documents_hi": [
+      "12वीं बोर्ड की अंकतालिका (संबंधित बोर्ड के 80वें पर्सेंटाइल में शामिल)",
+      "वार्षिक पारिवारिक आय प्रमाण पत्र (₹4.50 लाख तक)",
+      "नियमित डिग्री कोर्स में प्रवेश / बोनाफाइड प्रमाण पत्र",
+      "आधार कार्ड और आधार-सीडेड बैंक पासबुक"
+    ],
+    "steps": [
+      "Verify that your Class 12 roll number appears in your Board's top 20th percentile merit list.",
+      "Log in on scholarships.gov.in using your OTR ID.",
+      "Apply under Department of Higher Education — Central Sector Scheme.",
+      "Get your application verified online by your college nodal officer."
+    ],
+    "steps_hi": [
+      "सुनिश्चित करें कि 12वीं बोर्ड की मेरिट सूची (शीर्ष 20 प्रतिशत) में आपका नाम हो।",
+      "scholarships.gov.in पर OTR आईडी से लॉग इन करें।",
+      "उच्च शिक्षा विभाग की केंद्रीय सेक्टर छात्रवृत्ति योजना के अंतर्गत आवेदन करें।",
+      "कॉलेज नोडल अधिकारी से ऑनलाइन सत्यापन पूरा करवाएं।"
+    ],
+    "official_url": "https://scholarships.gov.in/",
+    "verification_note": "Requires regular (non-correspondence) degree enrollment and ≥80th percentile in Class 12. Verify board cutoff on scholarships.gov.in.",
+    "verification_note_hi": "नियमित डिग्री कोर्स में प्रवेश और 12वीं में 80वें पर्सेंटाइल से अधिक अंक आवश्यक हैं। आधिकारिक पोर्टल पर जांचें।"
+  },
+  {
+    "id": "depwd-disability-scholarship",
+    "name": "National Scholarships for Persons with Disabilities (DEPwD)",
+    "name_hi": "दिव्यांग विद्यार्थियों के लिए राष्ट्रीय छात्रवृत्ति योजना (DEPwD)",
+    "category": "Disability & Inclusion",
+    "category_hi": "दिव्यांगजन सशक्तिकरण",
+    "ministry": "Ministry of Social Justice & Empowerment (DEPwD)",
+    "ministry_hi": "दिव्यांगजन सशक्तिकरण विभाग (सामाजिक न्याय मंत्रालय)",
+    "description": "Dedicated Pre-Matric, Post-Matric, and Top-Class scholarships with book, disability, and assistive device allowances for students having at least 40% benchmark disability.",
+    "description_hi": "40% या उससे अधिक बेंचमार्क दिव्यांगता वाले विद्यार्थियों के लिए प्री-मैट्रिक, पोस्ट-मैट्रिक और उच्च शिक्षा छात्रवृत्ति तथा सहायक उपकरण भत्ता।",
+    "eligibility": {
+      "min_age": 12,
+      "max_age": 35,
+      "max_income": 250000,
+      "categories": ["ALL"],
+      "states": ["ALL"],
+      "education_levels": ["primary", "secondary", "higher_secondary", "diploma", "undergraduate", "postgraduate"],
+      "gender": "ALL",
+      "occupations": ["student"],
+      "requires_disability": true
+    },
+    "benefits": "Maintenance allowance, tuition reimbursement, book grant, plus ₹2,000–₹4,000/year special disability/reader allowance.",
+    "benefits_hi": "मासिक भत्ता, ट्यूशन फीस की प्रतिपूर्ति, पुस्तक अनुदान तथा ₹2,000–₹4,000 प्रति वर्ष विशेष दिव्यांगता/रीडर भत्ता।",
+    "documents": [
+      "UDID Card / Disability Certificate (≥ 40% benchmark disability)",
+      "Family Income Certificate (₹2.50 lakh for Pre/Post-Matric; up to ₹8 lakh for Top Class)",
+      "Previous Academic Marksheet",
+      "Institution Bonafide Certificate",
+      "Aadhaar Card & Bank Account Details"
+    ],
+    "documents_hi": [
+      "UDID कार्ड / दिव्यांगता प्रमाण पत्र (कम से कम 40% दिव्यांगता)",
+      "पारिवारिक आय प्रमाण पत्र (पोस्ट-मैट्रिक के लिए ₹2.50 लाख; टॉप-क्लास हेतु ₹8 लाख तक)",
+      "पिछली कक्षा की अंकतालिका",
+      "संस्थान का बोनाफाइड प्रमाण पत्र",
+      "आधार कार्ड और बैंक खाता विवरण"
+    ],
+    "steps": [
+      "Ensure you hold a valid UDID card orUDID enrollment number (swavlambancard.gov.in).",
+      "Register on scholarships.gov.in and select Department of Empowerment of Persons with Disabilities.",
+      "Enter UDID details, upload income and academic certificates, and submit.",
+      "Complete institute-level verification through your school or college."
+    ],
+    "steps_hi": [
+      "वैध UDID कार्ड या नामांकन संख्या (swavlambancard.gov.in) तैयार रखें।",
+      "scholarships.gov.in पर पंजीकरण कर दिव्यांगजन सशक्तिकरण विभाग की योजना चुनें।",
+      "UDID विवरण भरें, आय व शैक्षणिक प्रमाण पत्र अपलोड कर सबमिट करें।",
+      "अपने स्कूल या कॉलेज से ऑनलाइन सत्यापन करवाएं।"
+    ],
+    "official_url": "https://scholarships.gov.in/",
+    "verification_note": "Conservative ₹2.5L income cap shown for Pre/Post-Matric; Top-Class Education sub-scheme allows up to ₹8L income. Verify on scholarships.gov.in.",
+    "verification_note_hi": "पोस्ट-मैट्रिक के लिए ₹2.5 लाख आय सीमा दिखाई गई है; टॉप-क्लास योजना में ₹8 लाख तक की छूट है। पोर्टल पर विवरण जांचें।"
+  },
+  {
+    "id": "pm-vishwakarma",
+    "name": "PM Vishwakarma Yojana",
+    "name_hi": "पीएम विश्वकर्मा योजना",
+    "category": "Skill, Craft & Enterprise",
+    "category_hi": "कौशल विकास एवं स्वरोज़गार",
+    "ministry": "Ministry of Micro, Small & Medium Enterprises (MSME)",
+    "ministry_hi": "सूक्ष्म, लघु और मध्यम उद्यम मंत्रालय (MSME)",
+    "description": "End-to-end support for traditional artisans and craftspeople across 18 trades (carpenter, tailor, blacksmith, potter, mason, barber, etc.) with toolkit grant, paid training, and low-interest credit.",
+    "description_hi": "18 पारंपरिक व्यवसायों (बढ़ई, दर्जी, लोहार, कुम्हार, राजमिस्त्री, नाई आदि) से जुड़े कारीगरों और शिल्पकारों के लिए टूलकिट अनुदान, सवेतन प्रशिक्षण और सस्ता ऋण।",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 65,
+      "max_income": 400000,
+      "categories": ["ALL"],
+      "states": ["ALL"],
+      "education_levels": ["ALL"],
+      "gender": "ALL",
+      "occupations": ["artisan", "self_employed", "daily_wage"]
+    },
+    "benefits": "PM Vishwakarma Certificate & ID, up to ₹15,000 toolkit e-voucher, ₹500/day skill training stipend, and collateral-free loan up to ₹3,00,000 at 5% interest.",
+    "benefits_hi": "पीएम विश्वकर्मा प्रमाण पत्र, ₹15,000 तक का टूलकिट ई-वाउचर, प्रशिक्षण के दौरान ₹500 प्रतिदिन भत्ता, और 5% ब्याज पर ₹3,00,000 तक बिना गारंटी ऋण।",
+    "documents": [
+      "Aadhaar Card linked with active Mobile Number",
+      "Bank Account Passbook (Aadhaar seeded)",
+      "Ration Card (for family member check)",
+      "Self-declaration of working in one of the 18 eligible traditional trades"
+    ],
+    "documents_hi": [
+      "सक्रिय मोबाइल नंबर से लिंक आधार कार्ड",
+      "बैंक खाता पासबुक",
+      "राशन कार्ड (परिवार विवरण हेतु)",
+      "18 सूचीबद्ध पारंपरिक व्यवसायों में कार्यरत होने की जानकारी"
+    ],
+    "steps": [
+      "Visit your nearest Common Service Centre (CSC) with Aadhaar, mobile phone, and bank passbook.",
+      "Complete biometric Aadhaar authentication and select your traditional trade.",
+      "Undergo 3-tier verification by Gram Panchayat / ULB and District Committee.",
+      "Attend the 5–7 day basic skill training to receive your ₹15,000 toolkit e-voucher and credit eligibility."
+    ],
+    "steps_hi": [
+      "आधार, मोबाइल और बैंक पासबुक लेकर नजदीकी जन सेवा केंद्र (CSC) पर जाएं।",
+      "बायोमेट्रिक प्रमाणीकरण करवाएं और अपना पारंपरिक व्यवसाय चुनें।",
+      "ग्राम पंचायत / नगर निकाय द्वारा त्रिस्तरीय सत्यापन पूरा होने दें।",
+      "5–7 दिन का बुनियादी कौशल प्रशिक्षण पूरा कर ₹15,000 टूलकिट वाउचर और ऋण सुविधा प्राप्त करें।"
+    ],
+    "official_url": "https://pmvishwakarma.gov.in/",
+    "verification_note": "Restricted to one member per family not in government service and without recent Mudra/PMEGP loans. Verify the 18 eligible trades on pmvishwakarma.gov.in.",
+    "verification_note_hi": "परिवार के केवल एक सदस्य को लाभ देय है (सरकारी सेवा में कार्यरत नहीं होना चाहिए)। 18 पात्र व्यवसायों की सूची पोर्टल पर देखें।"
+  },
+  {
+    "id": "pm-svanidhi",
+    "name": "PM SVANidhi (Street Vendor's AtmaNirbhar Nidhi)",
+    "name_hi": "पीएम स्वनिधि (प्रधानमंत्री स्ट्रीट वेंडर्स आत्मनिर्भर निधि)",
+    "category": "Urban Livelihood & Credit",
+    "category_hi": "शहरी आजीविका एवं सूक्ष्म ऋण",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "ministry_hi": "आवास और शहरी कार्य मंत्रालय",
+    "description": "Collateral-free working capital micro-loans in progressive tranches with interest subsidy and UPI cashback incentives for urban and peri-urban street vendors.",
+    "description_hi": "शहरी एवं अर्ध-शहरी पथ विक्रेताओं (रेहड़ी-पटरी वालों) के लिए बिना गारंटी कार्यशील पूंजी ऋण, 7% ब्याज सब्सिडी और डिजिटल लेनदेन पर कैशबैक।",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 65,
+      "max_income": 300000,
+      "categories": ["ALL"],
+      "states": ["ALL"],
+      "education_levels": ["ALL"],
+      "gender": "ALL",
+      "occupations": ["street_vendor", "self_employed"]
+    },
+    "benefits": "Collateral-free working capital loans of ₹10,000 (1st tranche), ₹20,000 (2nd), and ₹50,000 (3rd) with 7% p.a. interest subsidy and up to ₹1,200/year UPI cashback.",
+    "benefits_hi": "बिना गारंटी ₹10,000 (प्रथम), ₹20,000 (द्वितीय) और ₹50,000 (तृतीय चरण) का कार्यशील पूंजी ऋण, 7% वार्षिक ब्याज सब्सिडी और ₹1,200 तक कैशबैक।",
+    "documents": [
+      "Aadhaar Card linked with Mobile Number",
+      "Certificate of Vending / ID Card issued by Urban Local Body (ULB) OR Letter of Recommendation (LoR)",
+      "Voter ID Card",
+      "Bank Account Passbook"
+    ],
+    "documents_hi": [
+      "मोबाइल नंबर से लिंक आधार कार्ड",
+      "नगर निकाय द्वारा जारी वेंडिंग प्रमाण पत्र / पहचान पत्र अथवा अनुशंसा पत्र (LoR)",
+      "मतदाता पहचान पत्र (वोटर आईडी)",
+      "बैंक खाता पासबुक"
+    ],
+    "steps": [
+      "Visit pmsvanidhi.mohua.gov.in or a nearby CSC / Municipal ULB camp.",
+      "Check your Survey Registration Number (SRN) or apply for a ULB Letter of Recommendation (LoR) online.",
+      "Complete Aadhaar e-KYC, choose your preferred bank/MFI lender, and submit the ₹10,000 loan application.",
+      "Repay timely using digital UPI transactions to unlock ₹20,000 and ₹50,000 tranches."
+    ],
+    "steps_hi": [
+      "pmsvanidhi.mohua.gov.in पोर्टल या नजदीकी नगर पालिका शिविर / CSC पर जाएं।",
+      "अपना सर्वे नंबर (SRN) जांचें या ऑनलाइन अनुशंसा पत्र (LoR) के लिए आवेदन करें।",
+      "आधार ई-केवाईसी पूरा करें, बैंक चुनें और ₹10,000 के प्रथम ऋण के लिए आवेदन करें।",
+      "समय पर भुगतान कर अगले ₹20,000 और ₹50,000 के ऋण की पात्रता पाएं।"
+    ],
+    "official_url": "https://pmsvanidhi.mohua.gov.in/",
+    "verification_note": "Requires Urban Local Body (ULB) vending ID or Letter of Recommendation. Verify municipal survey norms on pmsvanidhi.mohua.gov.in.",
+    "verification_note_hi": "शहरी स्थानीय निकाय का वेंडिंग प्रमाण पत्र या अनुशंसा पत्र आवश्यक है। आधिकारिक पोर्टल पर विवरण जांचें।"
+  },
+  {
+    "id": "atal-pension-yojana",
+    "name": "Atal Pension Yojana (APY)",
+    "name_hi": "अटल पेंशन योजना (APY)",
+    "category": "Social Security & Pension",
+    "category_hi": "सामाजिक सुरक्षा एवं पेंशन",
+    "ministry": "Ministry of Finance (PFRDA)",
+    "ministry_hi": "वित्त मंत्रालय (PFRDA)",
+    "description": "Guaranteed monthly old-age pension scheme for citizens aged 18–40 working in the unorganized sector who are not income-tax payers.",
+    "description_hi": "असंगठित क्षेत्र के 18 से 40 वर्ष आयु वर्ग के उन नागरिकों के लिए गारंटीशुदा मासिक पेंशन योजना जो आयकरदाता नहीं हैं।",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 40,
+      "max_income": 500000,
+      "categories": ["ALL"],
+      "states": ["ALL"],
+      "education_levels": ["ALL"],
+      "gender": "ALL",
+      "occupations": ["daily_wage", "farmer", "artisan", "street_vendor", "self_employed", "homemaker", "unemployed"]
+    },
+    "benefits": "Government-guaranteed fixed pension of ₹1,000, ₹2,000, ₹3,000, ₹4,000, or ₹5,000 per month from age 60 onwards (continues to spouse upon subscriber's demise).",
+    "benefits_hi": "60 वर्ष की आयु के बाद प्रति माह ₹1,000 से ₹5,000 तक की सरकार द्वारा गारंटीशुदा पेंशन (मृत्यु के बाद जीवनसाथी को समान पेंशन)।",
+    "documents": [
+      "Aadhaar Card",
+      "Active Savings Bank Account or Post Office Savings Account",
+      "Mobile Number for periodic contribution alerts",
+      "Nominee details (spouse / family member)"
+    ],
+    "documents_hi": [
+      "आधार कार्ड",
+      "सक्रिय बैंक बचत खाता या डाकघर बचत खाता",
+      "एसएमएस अलर्ट के लिए मोबाइल नंबर",
+      "नॉमिनी (जीवनसाथी / परिवार सदस्य) का विवरण"
+    ],
+    "steps": [
+      "Log in to your bank's netbanking/mobile app or visit enps.nsdl.com / your bank branch.",
+      "Select Atal Pension Yojana and choose your target pension slab (₹1,000 to ₹5,000/month).",
+      "Authorize auto-debit (monthly, quarterly, or half-yearly) based on your entry age.",
+      "Download your Permanent Retirement Account Number (PRAN) acknowledgement."
+    ],
+    "steps_hi": [
+      "अपने बैंक के मोबाइल ऐप / नेटबैंकिंग या enps.nsdl.com अथवा बैंक शाखा में जाएं।",
+      "अटल पेंशन योजना चुनें और अपनी इच्छित पेंशन राशि (₹1,000 से ₹5,000 प्रति माह) तय करें।",
+      "अपनी आयु के अनुसार मासिक या तिमाही ऑटो-डेबिट की अनुमति दें।",
+      "अपना PRAN कार्ड / रसीद डाउनलोड कर सुरक्षित रखें।"
+    ],
+    "official_url": "https://www.npscra.nsdl.co.in/scheme-details.php",
+    "verification_note": "Individuals who are or have been income-tax payers since Oct 1, 2022 are not eligible to open a new APY account. Verify contribution chart on npscra.nsdl.co.in.",
+    "verification_note_hi": "1 अक्टूबर 2022 से आयकर दाता व्यक्ति नया APY खाता खोलने के पात्र नहीं हैं। आधिकारिक वेबसाइट पर अंशदान तालिका देखें।"
+  }
+]
